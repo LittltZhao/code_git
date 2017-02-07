@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-def solution(nums1,nums2):
+def intersection(nums1,nums2):
     s1=set(nums1)
     s2=set(nums2)
     s=[]
@@ -8,7 +8,8 @@ def solution(nums1,nums2):
             if i==j:
                 s.append(i)
     return s
-
-# print solution([1,2,2,1],[2,2])
+def intersection2(nums1,nums2):#列表解析迭代
+    return [num for num in set(nums1) if num in nums2]
+print intersection2([1,2,2,1],[2,2])
 
 

@@ -1,0 +1,2 @@
+leetcode题解（基于python）
+通过本项目学习数据结构和算法巩固python知识
