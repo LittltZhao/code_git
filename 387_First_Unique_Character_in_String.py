@@ -11,5 +11,9 @@ def check(s):
         else:
             continue
     return -1
-print check("leetcode")
+def check2(s):#时间超出
+    for i in range(len(s)):
+        if s.count(s[i])==1:
+            return i
+print check2("leeltcode")
 
